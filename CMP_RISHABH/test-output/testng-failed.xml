@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Testcases.simallocationcases">
+        <methods>
+          <include name="Simallocation"/>
+        </methods>
+      </class> <!-- Testcases.simallocationcases -->
+      <class name="Testcases.dashboardcases">
+        <methods>
+          <include name="Move_to_Dashboard"/>
+        </methods>
+      </class> <!-- Testcases.dashboardcases -->
+      <class name="Testcases.groupcases">
+        <methods>
+          <include name="Move_to_Group"/>
+        </methods>
+      </class> <!-- Testcases.groupcases -->
+      <class name="Testcases.simaliasuploadcases">
+        <methods>
+          <include name="SimAliasupload"/>
+        </methods>
+      </class> <!-- Testcases.simaliasuploadcases -->
+      <class name="Testcases.apicases">
+        <methods>
+          <include name="Move_to_APIUser"/>
+        </methods>
+      </class> <!-- Testcases.apicases -->
+      <class name="Testcases.hierarchicaldashboardcases">
+        <methods>
+          <include name="Hierarchical_Dashboard"/>
+        </methods>
+      </class> <!-- Testcases.hierarchicaldashboardcases -->
+      <class name="Testcases.roleandaccesscases">
+        <methods>
+          <include name="Move_to_RoleAndAccess"/>
+        </methods>
+      </class> <!-- Testcases.roleandaccesscases -->
+      <class name="Testcases.usercases">
+        <methods>
+          <include name="Move_to_User"/>
+        </methods>
+      </class> <!-- Testcases.usercases -->
+      <class name="Testcases.logincases">
+        <methods>
+          <include name="setUp"/>
+          <include name="When_ValidUserNameAndPassword_Expect_LoginPass"/>
+        </methods>
+      </class> <!-- Testcases.logincases -->
+      <class name="Testcases.managesimscases">
+        <methods>
+          <include name="ManageSIMS"/>
+        </methods>
+      </class> <!-- Testcases.managesimscases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [LoginTest]" guice-stage="DEVELOPMENT">
+  <test parallel="tests" name="ParallelTest1 Browser Chrome(failed)">
+    <classes>
+      <class name="Testcases.logincases">
+        <methods>
+          <include name="setUp"/>
+          <include name="graphicimage_onLoginPage"/>
+          <include name="When_ValidUserNameAndPassword_Expect_LoginPass"/>
+        </methods>
+      </class> <!-- Testcases.logincases -->
+    </classes>
+  </test> <!-- ParallelTest1 Browser Chrome(failed) -->
+</suite> <!-- Failed suite [LoginTest] -->

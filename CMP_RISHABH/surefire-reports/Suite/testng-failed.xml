@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Testcases.Createmeetingcases">
+        <methods>
+          <include name="Logout"/>
+          <include name="When_SearchMeeting"/>
+          <include name="MadatoryfieldValidation"/>
+          <include name="ClickonAddAgendabutton"/>
+        </methods>
+      </class> <!-- Testcases.Createmeetingcases -->
+      <class name="Testcases.googleuserlogin">
+        <methods>
+          <include name="ClickonGoogleloginbutton"/>
+          <include name="When_SearchMeeting"/>
+        </methods>
+      </class> <!-- Testcases.googleuserlogin -->
+      <class name="Testcases.logincases">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Testcases.logincases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

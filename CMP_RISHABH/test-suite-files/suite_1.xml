@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginTest" parallel="tests" thread-count="2" preserve-order="true">
+
+	<test name="ParallelTest1 Browser Chrome">
+		
+    <classes>
+      <class name="Testcases.logincases"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+
+	
+</suite> <!-- Suite -->
+
+
+

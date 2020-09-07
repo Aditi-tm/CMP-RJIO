@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite_2]" guice-stage="DEVELOPMENT">
+  <test name="Test2(failed)">
+    <classes>
+      <class name="Testcases.Createmeetingcases">
+        <methods>
+          <include name="Verify_agenda__no_after_Agenda_creation_in_current_meeting_detail"/>
+        </methods>
+      </class> <!-- Testcases.Createmeetingcases -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite_2] -->

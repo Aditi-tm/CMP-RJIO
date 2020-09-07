@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite_3]" guice-stage="DEVELOPMENT">
+  <test name="Test3(failed)">
+    <classes>
+      <class name="Testcases.googleuserlogin">
+        <methods>
+          <include name="When_ValidUserNameAndPassword_Expect_LoginPass"/>
+          <include name="when_verifying_AgendaTitle"/>
+          <include name="When_SearchMeeting"/>
+        </methods>
+      </class> <!-- Testcases.googleuserlogin -->
+      <class name="Testcases.Verificationmeetingdetails">
+        <methods>
+          <include name="Verify_decision_no_afterdecisioncreation_in_current_meeting_detail"/>
+          <include name="when_verifying_AgendaTitle"/>
+          <include name="Verify_loginAc_is_organiser"/>
+          <include name="Verify_agenda__no_after_Agenda_creation_in_current_meeting_detail"/>
+          <include name="Verify_meetingtile_on_central_panel"/>
+          <include name="Verify_task_no_aftertaskcreation_in_current_meeting_detail"/>
+        </methods>
+      </class> <!-- Testcases.Verificationmeetingdetails -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite_3] -->
