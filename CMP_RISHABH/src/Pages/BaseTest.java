@@ -48,7 +48,7 @@ public class BaseTest {
 		public void getUrl(String url) throws InterruptedException, IOException 
 		{
 			OR = propertiesfile.readfile();
-		//	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		//	 Timer  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			
 			System.out.println("Test :: "+OR.getProperty("url"));
 			//driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
